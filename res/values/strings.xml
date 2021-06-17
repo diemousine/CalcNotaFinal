@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calcule a Nota Final</string>
+    <string name="aviso_media_atual">Sua média atual (Ma):</string>
+    <string name="campo_nota">0.0</string>
+    <string name="aviso_media_passar">Média para passar (Mf):</string>
+    <string name="campo_media_passar">5.0</string>
+    <string name="aviso_pesos">Pesos:</string>
+    <string name="aviso_ma">(Ma)x</string>
+    <string name="campo_ma">7</string>
+    <string name="aviso_pf">(Pf)x</string>
+    <string name="campo_pf">3</string>
+    <string name="aviso_mult_pf">Multiplicador da Prova Final:</string>
+    <string name="aviso_nota_passar">A nota necessária para passar é:</string>
+    <string name="botao_calcular">Calcular</string>
+    <string name="action_settings">Config.</string>
+
+</resources>

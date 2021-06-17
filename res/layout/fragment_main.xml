@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dsdm.calcnotafinal.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/aviso_media_atual" />
+
+    <EditText
+        android:id="@+id/campo_ma"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:hint="@string/campo_nota"
+        android:inputType="numberDecimal"
+        android:maxLength="4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/aviso_media_passar" />
+    
+    <EditText
+        android:id="@+id/campo_mf"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/campo_media_passar"
+        android:inputType="numberDecimal"
+        android:maxLength="4"
+        android:nextFocusDown="@+id/mult_ma" />
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:text="@string/aviso_pesos" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="130dp"
+        android:text="@string/aviso_ma" />
+    
+	<EditText
+	    android:id="@+id/mult_ma"
+	    android:layout_width="35dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="105dp"
+	    android:layout_marginTop="115dp"
+	    android:hint="@string/campo_ma"
+	    android:inputType="numberDecimal"
+	    android:maxLength="1"
+	    android:nextFocusDown="@+id/mult_pf" />
+        
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="150dp"
+	    android:layout_marginTop="130dp"
+	    android:text="@string/aviso_pf" />
+    
+    <EditText
+        android:id="@+id/mult_pf"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="115dp"
+        android:hint="@string/campo_pf"
+        android:inputType="numberDecimal"
+        android:maxLength="1" />
+        
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="170dp"
+	    android:text="@string/aviso_nota_passar" />
+
+    <TextView
+        android:id="@+id/aviso_valor_nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="205dp"
+        android:maxLength="4"
+        android:text="@string/campo_nota"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="275dp"
+        android:onClick="calcularNotaFinal"
+        android:text="@string/botao_calcular" />
+
+</RelativeLayout>
